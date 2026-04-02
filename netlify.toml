@@ -1,0 +1,7 @@
+[build]
+  functions = "functions" # api.jsを置いたフォルダを指定
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/api" # "api" は作成したファイル名(api.js)に合わせます
+  status = 200
